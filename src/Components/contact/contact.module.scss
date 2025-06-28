@@ -1,0 +1,221 @@
+.contact {
+  .textSection {
+    .line {
+      border-bottom: 2px solid #d9d9d9;
+      width: 100%;
+    }
+
+    font-family: "Bebas Neue";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 220px;
+    color: #999999;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .contactInfo {
+    max-width: 1600px;
+    margin: 100px auto;
+
+    .contacts {
+      .findMeSection {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 20px;
+        span {
+          margin-right: 10px;
+          font-weight: 700;
+          font-size: 60px;
+          line-height: 150%;
+          color: #999999;
+          font-family: "Bebas Neue";
+          max-width: 227px;
+        }
+      }
+      h1 {
+        font-family: "Open Sans";
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 150%;
+        color: #999999;
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+      .contactButtons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 20px;
+
+        button {
+          width: 190px;
+          height: 40px;
+          font-family: "Bebas Neue";
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 150%;
+          background-color: unset;
+          border: 1px solid #999999;
+          border-radius: 30px;
+          color: #999999;
+
+          &:hover {
+            cursor: pointer;
+            background: #141414;
+            border: 2px solid #cfcfcf;
+            color: #cfcfcf;
+          }
+        }
+      }
+    }
+  }
+}
+
+.contactButton {
+  width: 188px !important;
+}
+
+@media screen and (min-width: 501px) and (max-width: 1290px) {
+  .contact {
+    .textSection {
+      font-size: 100px;
+    }
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .contact {
+    .textSection {
+      font-size: 50px;
+    }
+  }
+}
+
+@media screen and (min-width: 351px) and (max-width: 440px) {
+  .contact {
+    .contactInfo {
+      .contacts {
+        .contactButtons {
+          margin-top: 0px !important;
+          row-gap: 20px;
+
+          button {
+            width: 150px;
+            height: 30px;
+          }
+          button:last-child {
+            margin-top: 0px !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .contact {
+    .contactInfo {
+      .contacts {
+        .contactButtons {
+          button {
+            width: 130px;
+            height: 25px;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .contact {
+    .contactInfo {
+      margin: 40px auto;
+
+      .contacts {
+        h1 {
+          font-size: 16px !important;
+          text-align: center !important;
+        }
+
+        .contactButtons {
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          row-gap: 20px;
+
+          button:last-child {
+            margin-top: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1555px) and (max-width: 1750px) {
+  .contact {
+    .textSection {
+      font-size: 170px;
+    }
+  }
+}
+
+@media screen and (min-width: 1290px) and (max-width: 1555px) {
+  .contact {
+    .textSection {
+      font-size: 135px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+    .line {
+      margin: 20px 0 !important;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contact {
+    .textSection {
+      font-size: 46px;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .findMeSection {
+    column-gap: 6px !important;
+
+    span {
+      font-size: 24px !important;
+    }
+
+    img {
+      width: 16px;
+    }
+  }
+
+  .contact {
+    .textSection {
+      font-size: 38px !important;
+    }
+  }
+
+  .contactInfo {
+    margin: 35px 20px !important;
+  }
+
+  .contactButtons {
+    button {
+      max-width: 134px;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.buttonStyle {
+  width: 190px;
+  height: 40px;
+  font-family: "Bebas Neue";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  background-color: unset;
+  border: 1px solid #999999;
+  border-radius: 30px;
+  color: #999999;
+
+  &:hover {
+    cursor: pointer;
+    background: #141414;
+    border: 1px solid #cfcfcf;
+    color: #cfcfcf;
+    transition: 0.3s;
+  }
+  @media screen and (max-width: 568px) {
+    width: 100%;
+  }
+}

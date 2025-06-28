@@ -1,0 +1,318 @@
+.skillsSection {
+  margin: auto;
+  font-family: "Oswald";
+
+  .skillsTechnologiesBlock {
+    overflow: hidden;
+
+    .line:first-child {
+      margin-bottom: 20px;
+    }
+
+    .line:last-child {
+      margin-top: 20px;
+    }
+
+    .line {
+      border-bottom: 2px solid #d9d9d9;
+      width: 100%;
+    }
+
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Bebas Neue";
+    font-weight: 500;
+    font-size: 220px;
+    color: #999999;
+  }
+
+  .skillsContainer {
+    max-width: 1700px;
+    margin: 0 auto 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0px 30px;
+
+    .aboutSkills {
+      width: 100%;
+    }
+
+    h1 {
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 150%;
+      color: #999999;
+      text-align: center;
+    }
+
+    p {
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 33px;
+      color: #999999;
+      text-align: center;
+    }
+
+    .firstSection {
+      max-width: 580px;
+      width: 100%;
+
+      .line {
+        border-bottom: 2px solid #d9d9d9;
+      }
+
+      .section {
+        p {
+          letter-spacing: 0.05em;
+          padding: 15px 0;
+          font-weight: 400;
+        }
+      }
+
+      h1 {
+        letter-spacing: 0.1em;
+        font-weight: 700;
+        font-size: 28px;
+        display: flex;
+        justify-content: center;
+        font-family: "Bebas Neue";
+        padding: 15px 0;
+        margin: 40px 0 10px 20px;
+      }
+    }
+
+    .secondOne {
+      h1 {
+        letter-spacing: 0.06em;
+      }
+
+      p {
+        letter-spacing: 0.05em;
+      }
+    }
+
+    .secondSection {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width: max-content;
+      margin-top: 55px;
+
+      h1 {
+        font-weight: 700;
+        font-size: 28px;
+        display: flex;
+        justify-content: center;
+        font-family: "Bebas Neue";
+        margin-bottom: 20px;
+      }
+
+      p {
+        margin-bottom: 15px;
+        font-weight: 400;
+      }
+    }
+
+    .thirdSection {
+      max-width: 580px;
+      width: 100%;
+      margin: 40px 0 10px 20px;
+
+      .line {
+        border-bottom: 2px solid #d9d9d9;
+        max-width: 580px;
+      }
+
+      .section {
+        p {
+          padding: 15px 0;
+          margin-left: 20px;
+          font-weight: 400;
+        }
+      }
+
+      h1 {
+        font-weight: 700;
+        font-size: 28px;
+        display: flex;
+        justify-content: center;
+        font-family: "Bebas Neue";
+        padding: 15px 0;
+      }
+    }
+  }
+  .lineSkills {
+    border: 1px solid #d9d9d9;
+  }
+
+  .skillsLine {
+    border: 1px solid #d9d9d9;
+    display: none;
+  }
+}
+
+@media screen and (min-width: 591px) and (max-width: 1280px) {
+  .skillsSection {
+    .skillsTechnologiesBlock {
+      font-size: 100px;
+    }
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 500px) {
+  .skillsSection {
+    .skillsTechnologiesBlock {
+      font-size: 46px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .skillsTechnologiesBlock {
+    font-size: 46px !important;
+  }
+  .lineSkills {
+    margin: 20px 0 !important;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .skillsSection {
+    .skillsTechnologiesBlock {
+      font-size: 40px !important;
+
+      span {
+        letter-spacing: -0.5px;
+      }
+    }
+
+    .lineSkills {
+      margin: 20px 0 !important;
+    }
+
+    .firstSection {
+      h1 {
+        font-size: 16px !important;
+        margin: 0 !important;
+        letter-spacing: 0.05em !important;
+        padding: 20px 0 25px !important;
+      }
+    }
+    .skillsContainer {
+      margin: 0 auto 40px auto;
+    }
+
+    .skillsLine {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  .section {
+    margin-left: 0px !important;
+
+    p {
+      margin-left: 0px !important;
+      font-size: 16px !important;
+    }
+  }
+
+  .secondSection {
+    display: flex !important;
+    width: 100% !important;
+
+    .secondOne {
+      display: flex;
+      width: 100% !important;
+      margin: 0 auto;
+      justify-content: space-between;
+      column-gap: 35px;
+      margin-bottom: 45px;
+
+      h1 {
+        font-size: 16px !important;
+      }
+
+      p {
+        font-size: 16px !important;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1380px) {
+  .skillsSection {
+    .skillsTechnologiesBlock {
+      margin-top: 46px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .skillsSection {
+    font-size: 16px;
+
+    .skillsContainer {
+      justify-content: center;
+
+      .firstSection {
+        h1 {
+          margin-left: 0px !important;
+        }
+
+        .section {
+          margin-left: 0px;
+          p {
+            margin-left: 0px;
+          }
+        }
+
+        .line {
+          margin: 0 auto;
+        }
+      }
+
+      .secondSection {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1001px) {
+  .skillsSection {
+    .skillsContainer {
+      .firstSection {
+        h1 {
+          margin-left: 0px;
+        }
+
+        .section {
+          margin-left: 0px !important;
+
+          p {
+            margin-left: 0px !important;
+          }
+        }
+      }
+
+      .thirdSection {
+        h1 {
+          margin-left: 0px !important;
+        }
+
+        .section {
+          margin-left: 0 !important;
+          p {
+            margin-left: 0px !important;
+          }
+        }
+      }
+    }
+  }
+}

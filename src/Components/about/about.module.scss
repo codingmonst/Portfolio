@@ -1,0 +1,389 @@
+.about {
+  max-width: 1800px;
+  margin: -30px auto;
+  font-family: "Bebas Neue";
+
+  .stackSpan {
+    z-index: -1;
+  } 
+
+  .aboutSection {
+    width: 100%;
+
+    .fullStackSection {
+      max-width: 1700px;
+
+      .line {
+        background-color: #999999;
+        width: 450px;
+        height: 40px;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .developerSection {
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 20px;
+
+      .arrowBlock {
+        position: relative;
+        width: 100%;
+
+        img {
+          position: absolute;
+          right: 0;
+        }
+      }
+
+      .developerTextBlock {
+        display: flex;
+        max-width: 1725px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+
+      .fullStackBlock {
+        max-width: 1725px;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        column-gap: 30px;
+        margin-right: 20px;
+
+        .blockLeftSection {
+          margin-top: 30px;
+          column-gap: 35px;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          width: 100%;
+
+          span {
+            color: #999999;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 400px;
+            line-height: 400px;
+            letter-spacing: -0.04em;
+            margin-left: -15px;
+          }
+          
+
+          .line {
+            width: 450px;
+            height: 40px;
+            background: #999999;
+          }
+        }
+
+        span {
+          color: #999999;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 400px;
+          letter-spacing: -0.04em;
+        }
+      }
+
+      .developerBlock {
+        column-gap: 30px;
+
+        span,
+        p {
+          color: #999999;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 400px;
+          line-height: 400px;
+          letter-spacing: -0.04em;
+        }
+
+        .line {
+          width: 450px;
+          height: 40px;
+          background: #999999;
+        }
+      }
+
+      .fullStackImg,
+      .developerImg {
+        display: none;
+        align-items: center;
+      }
+
+      .developerLogo {
+        max-width: 1200px;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .textSection {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+
+        .smallArrow {
+          display: none;
+        }
+
+        img:nth-child(1) {
+          position: absolute;
+          top: 0;
+          right: 0;
+        }
+
+        p {
+          max-width: 424px;
+          font-family: "Open Sans";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 150%;
+          letter-spacing: -0.05em;
+          color: #999999;
+          margin-top: 100px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 800px) {
+  .about {
+    margin: 0px auto 0 auto;
+
+    .aboutSection {
+      .developerSection {
+        .fullStackBlock {
+          margin-right: 0;
+          .blockLeftSection {
+            .line {
+              width: 60% !important;
+              height: 10px;
+              margin-bottom: -25px !important;
+            }
+            span {
+              margin-left: -4px !important;
+            }
+          }
+
+          span {
+            font-size: 100px !important;
+            line-height: 0.8 !important;
+          }
+        }
+
+        .developerTextBlock {
+          .textSection {
+            img:nth-child(2) {
+              margin: 20px 0 10px 0;
+            }
+          }
+
+          .developerBlock {
+            padding-right: 20px;
+            p {
+              margin-left: -4px;
+              font-size: 100px !important;
+              line-height: 1.2 !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1581px) and (max-width: 1750px) {
+  .about {
+    .aboutSection {
+      .developerSection {
+        .fullStackBlock {
+          .blockLeftSection {
+            span {
+              font-size: 300px;
+            }
+          }
+        }
+
+        .developerTextBlock {
+          justify-content: space-around;
+
+          .developerBlock {
+            p {
+              font-size: 300px;
+            }
+          }
+
+          .textSection {
+            p {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1181px) and (max-width: 1580px) {
+  .about {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1381px) and (max-width: 1580px) {
+  .about {
+    .aboutSection {
+      .developerSection {
+        .fullStackBlock {
+          .blockLeftSection {
+            span {
+              font-size: 400px;
+            }
+          }
+        }
+
+        .developerBlock {
+          .developerTextBlock {
+            .developerBlock {
+              p {
+                font-size: 250px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .line {
+      width: 200px;
+    }
+
+    .textSection {
+      p {
+        margin: 0 0 40px !important;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 20px) and (max-width: 1380px) {
+  .about {
+    padding: 0px 20px;
+    .aboutSection {
+      .stackSpan {
+        margin-top: 30px;
+      }
+
+      .developerSection {
+        padding-left: 0;
+        .fullStackBlock {
+          grid-template-columns: auto auto;
+
+          .blockLeftSection {
+            margin-top: 40px;
+            .line {
+              max-width: 300px;
+            }
+
+            span {
+              line-height: 250px;
+              font-size: 250px;
+            }
+          }
+          span {
+            line-height: 250px;
+            font-size: 250px;
+          }
+        }
+
+        .developerTextBlock {
+          justify-content: space-around;
+          display: block;
+
+          .textSection {
+            margin-left: 0;
+            display: block;
+            margin-top: -30px;
+          }
+
+          .developerBlock {
+            margin-bottom: 30px;
+            p {
+              font-size: 250px;
+              line-height: 250px;
+            }
+          }
+
+          .textSection {
+            p {
+              margin: 0;
+            }
+
+            img:nth-child(1) {
+              display: none;
+            }
+
+            img:nth-child(2) {
+              display: block;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .about {
+    .aboutSection {
+      .developerSection {
+        padding-left: 0;
+        .fullStackBlock {
+          flex-wrap: wrap;
+
+          .blockLeftSection {
+            span {
+              margin-left: 0;
+              margin-top: 40px;
+              line-height: 160px;
+              margin-left: -10px;
+            }
+          }
+        }
+      }
+    }
+    .developerBlock {
+      p {
+        margin-left: -10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .fullStackBlock {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .blockLeftSection {
+    margin-top: 0 !important;
+  }
+  .about {
+    .developerTextBlock {
+      .developerBlock {
+        p {
+          font-size: 100px !important;
+        }
+      }
+    }
+  }
+}

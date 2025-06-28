@@ -1,0 +1,21 @@
+.primaryButton {
+  width: 160px;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1E1E1E;
+  border: 2px solid;
+  border-radius: 30px;
+  background-color: #999999;
+  height: 40px;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.primaryButton:hover {
+  box-shadow: inset 160px 0 0 0 #D9D9D9;
+  color: #000000;
+  border: 2px solid;
+  border-radius: 30px;
+  cursor: pointer;
+}
